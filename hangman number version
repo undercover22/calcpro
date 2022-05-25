@@ -56,10 +56,10 @@ End
 :ClrHome
 :0→I
 :prgmHANG1
-:randInt(1,1000)→N
-:Disp "Guess a number"
+:randInt(1,100)→N
+:Disp "Guess a number (1-100)"
 :For(I,1,10)
-:Input "Guess?",G
+:Input "Your guess?",G
 :If N=G:Then
 :Disp "You've got it!"
 :Pause
@@ -74,12 +74,16 @@ End
 :End
 :End
 :End
-:Disp "You lose!","The number was:",N
+:Disp "Game over!","The number was:",N
 
 #option to play again or quit 
 :Lbl A
 :ClrHome
-:Menu("PLAY AGAIN","QUIT
+:Menu("Play again",B,"Quit",C
+:Lbl B
+:prgmHANGMAN
+:Lbl C
+:End
 
 
 
