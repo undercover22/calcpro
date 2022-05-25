@@ -55,21 +55,19 @@ End
 #HANGMAN (number version)
 :ClrHome
 :0→I
-:prgmHANG1
 :randInt(1,100)→N
 :Disp "Guess a number (1-100)"
-:For(I,1,10)
-:Input "Your guess?",G
+:For(I,0,6)
+:prgmHANG1
+:Input "Your guess? ",G
 :If N=G:Then
 :Disp "You've got it!"
 :Pause
 :Stop
 :Else
 :If N>G:Then
-:I+1→I
 :Disp "Higher..."
 :Else
-:I+1→I
 :Disp "Lower..."
 :End
 :End
