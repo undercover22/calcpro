@@ -61,7 +61,7 @@ End
 :For(I,1,10)
 :Input "Guess?",G
 :If N=G:Then
-:Disp "You've got it!","Guesses:",I
+:Disp "You've got it!"
 :Pause
 :Stop
 :Else
@@ -76,7 +76,10 @@ End
 :End
 :Disp "You lose!","The number was:",N
 
-
+#option to play again or quit 
+:Lbl A
+:ClrHome
+:Menu("PLAY AGAIN","QUIT
 
 
 
