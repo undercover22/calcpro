@@ -1,5 +1,6 @@
 #HANG1 (seperate program)
-Disp "  +---|"
+Disp "       "
+Disp "  +---+"
 
 If I=0:Then
 Disp "      |"
@@ -7,6 +8,7 @@ Disp "      |"
 Disp "      |"
 Disp "      |"
 Disp "      |"
+Disp "       "
 End
 If I=1:Then
 Disp "  O   |"
@@ -14,6 +16,7 @@ Disp "      |"
 Disp "      |"
 Disp "      |"
 Disp "      |"
+Disp "       "
 End
 If I=2:Then
 Disp "  O   |"
@@ -21,6 +24,7 @@ Disp "  |   |"
 Disp "  |   |"
 Disp "      |"
 Disp "      |"
+Disp "       "
 End
 If I=3:Then
 Disp "  O / |"
@@ -28,6 +32,7 @@ Disp "  |/  |"
 Disp "  |   |"
 Disp "      |"
 Disp "      |"
+Disp "       "
 End
 If I=4:Then
 Disp "\ O / |"
@@ -35,6 +40,7 @@ Disp " \|/  |"
 Disp "  |   |"
 Disp "      |"
 Disp "      |"
+Disp "       "
 End
 If I=5:Then
 Disp "\ O / |"
@@ -42,6 +48,7 @@ Disp " \|/  |"
 Disp "  |   |"
 Disp " /    |"
 Disp "/     |"
+Disp "       "
 End
 If I=6:Then
 Disp "\ O / |"
@@ -49,6 +56,7 @@ Disp " \|/  |"
 Disp "  |   |"
 Disp " / \  |"
 Disp "/   \ |"
+Disp "       "
 End
 
 
