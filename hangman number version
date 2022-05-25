@@ -55,6 +55,7 @@ End
 #HANGMAN (number version)
 :ClrHome
 :0→I
+:prgmHANG1
 :randInt(1,1000)→N
 :Disp "Guess a number"
 :For(I,1,10)
