@@ -62,9 +62,10 @@ End
 
 #HANGMAN (number version)
 :ClrHome
+:ClrHome
 :0→I
-:randInt(1,100)→N
-:Disp "Guess a number (1-100)"
+:randInt(1,40)→N
+:Disp "Guess a number (1-40)"
 :For(I,0,6)
 :prgmHANG1
 :Input "Your guess? ",G
@@ -86,16 +87,16 @@ End
 :Disp " "
 :Disp " "
 :Disp "Game over!","The number was:",N
+:Pause " "
+:prgmOPTIONS
 
-#option to play again or quit (in progress) 
+#OPTIONS (menu to play again or quit) 
 :Lbl A
 :ClrHome
-:Menu("Play again",B,"Quit",C
+:Menu("Options","PLAY AGAIN",B,"QUIT",C
 :Lbl B
 :prgmHANGMAN
 :Lbl C
-:End
-
 
 
 
