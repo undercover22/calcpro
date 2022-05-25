@@ -63,14 +63,23 @@ End
 #HANGMAN (number version)
 :ClrHome
 :0→I
-:randInt(1,40)→N
-:Disp "Guess a number (1-40)"
+:randInt(1,5)→N
+:Disp "Guess a number (1-5)"
 :For(I,0,6)
 :prgmHANG1
 :Input "Your guess? ",G
 :If N=G:Then
-:Disp "You've got it!"
-:Pause
+:Disp " "
+:Disp " "
+:Disp " "
+:Disp " "
+:Disp " "
+:Disp "You guessed it!"
+:Disp " "
+:Disp " "
+:Disp " "
+:Pause " "
+:prgmOPTIONS
 :Stop
 :Else
 :If N>G:Then
@@ -86,6 +95,8 @@ End
 :Disp " "
 :Disp " "
 :Disp "Game over!","The number was:",N
+:Disp " "
+:Disp " "
 :Disp " "
 :Pause " "
 :prgmOPTIONS
