@@ -96,8 +96,6 @@ End
 :Disp " "
 :Disp "Game over!","The number was:",N
 :Disp " "
-:Disp " "
-:Disp " "
 :Pause " "
 :prgmOPTIONS
 
