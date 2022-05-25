@@ -62,7 +62,6 @@ End
 
 #HANGMAN (number version)
 :ClrHome
-:ClrHome
 :0→I
 :randInt(1,40)→N
 :Disp "Guess a number (1-40)"
@@ -87,6 +86,7 @@ End
 :Disp " "
 :Disp " "
 :Disp "Game over!","The number was:",N
+:Disp " "
 :Pause " "
 :prgmOPTIONS
 
