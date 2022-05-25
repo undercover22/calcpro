@@ -81,6 +81,10 @@ End
 :End
 :End
 :Disp " "
+:Disp " "
+:Disp " "
+:Disp " "
+:Disp " "
 :Disp "Game over!","The number was:",N
 
 #option to play again or quit (in progress) 
