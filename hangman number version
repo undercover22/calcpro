@@ -1,49 +1,49 @@
 #HANG1 (seperate program)
 Disp "  +---|"
 
-If C=0:Then
+If I=0:Then
 Disp "      |"
 Disp "      |"
 Disp "      |"
 Disp "      |"
 Disp "      |"
 End
-If C=1:Then
+If I=1:Then
 Disp "  O   |"
 Disp "      |"
 Disp "      |"
 Disp "      |"
 Disp "      |"
 End
-If C=2:Then
+If I=2:Then
 Disp "  O   |"
 Disp "  |   |"
 Disp "  |   |"
 Disp "      |"
 Disp "      |"
 End
-If C=3:Then
+If I=3:Then
 Disp "  O / |"
 Disp "  |/  |"
 Disp "  |   |"
 Disp "      |"
 Disp "      |"
 End
-If C=4:Then
+If I=4:Then
 Disp "\ O / |"
 Disp " \|/  |"
 Disp "  |   |"
 Disp "      |"
 Disp "      |"
 End
-If C=5:Then
+If I=5:Then
 Disp "\ O / |"
 Disp " \|/  |"
 Disp "  |   |"
 Disp " /    |"
 Disp "/     |"
 End
-If C=6:Then
+If I=6:Then
 Disp "\ O / |"
 Disp " \|/  |"
 Disp "  |   |"
@@ -54,20 +54,21 @@ End
 
 #HANGMAN (number version)
 :ClrHome
-:0→C
-:prgmHANG1
-:randInt(1,100)→N
+:0→I
+:randInt(1,1000)→N
 :Disp "Guess a number"
-:For(C,1,6)
+:For(I,1,10)
 :Input "Guess?",G
 :If N=G:Then
-:Disp "You've got it!"
+:Disp "You've got it!","Guesses:",I
 :Pause
 :Stop
 :Else
 :If N>G:Then
+:I+1→I
 :Disp "Higher..."
 :Else
+:I+1→I
 :Disp "Lower..."
 :End
 :End
